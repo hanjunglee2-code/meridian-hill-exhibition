@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Meridian Hill / Malcolm X Park</title>
+  <meta name="description" content="An immersive architectural exhibition on Meridian Hill Park / Malcolm X Park, Washington, DC." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/" } }
+  </script>
+</head>
+<body>
+  <div id="stage" aria-hidden="true"></div>
+
+  <section id="intro" aria-labelledby="intro-title">
+    <div class="intro-inner">
+      <p class="eyebrow">An architectural exhibition · Washington, DC</p>
+      <h1 id="intro-title">Meridian Hill Park<br /><span>Malcolm X Park</span></h1>
+      <p class="lede">Enter a quiet building of white concrete and walk through twelve rooms about one federal park: who built it, who used it, who named it, and who governs it. The architecture is pristine. The history is not.</p>
+      <div class="controls">
+        <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> or arrows<span>walk</span></div>
+        <div><kbd>Mouse</kbd><span>look</span></div>
+        <div><kbd>Click</kbd><span>open objects, pass through doors</span></div>
+        <div><kbd>Shift</kbd><span>walk faster</span></div>
+        <div><kbd>M</kbd><span>plan</span> <kbd>P</kbd><span>archive</span> <kbd>T</kbd><span>text</span></div>
+        <div><kbd>Esc</kbd><span>close panels, release mouse</span></div>
+      </div>
+      <p class="touchnote">On touch screens, drag on the left to walk, drag on the right to look, and tap objects to open them.</p>
+      <div class="actions">
+        <button id="btn-enter" class="primary" disabled>Enter the exhibition</button>
+        <button id="btn-text">Read as text</button>
+        <button id="btn-archive">Open the archive</button>
+      </div>
+      <p id="intro-status" role="status">Loading research…</p>
+      <p class="fine">Research compiled 29 September 2026 using the National Parks and Data.gov MCP servers. The site never contacts either API.</p>
+    </div>
+  </section>
+
+  <div id="hud" aria-hidden="true">
+    <div id="room-tag"></div>
+    <div id="room-title"></div>
+    <div id="crosshair"></div>
+    <div id="hover"></div>
+    <div id="hud-buttons">
+      <button id="btn-map" tabindex="-1">Plan <kbd>M</kbd></button>
+      <button id="btn-arch2" tabindex="-1">Archive <kbd>P</kbd></button>
+      <button id="btn-sound" tabindex="-1">Sound on</button>
+    </div>
+    <div id="hints">WASD walk · mouse look · click interact · M plan · P archive · Esc release</div>
+  </div>
+
+  <button id="resume">Click to continue walking</button>
+  <div id="fade"></div>
+  <div id="touch"><div id="joy"><i></i></div></div>
+
+  <aside id="panel" class="overlay" role="dialog" aria-modal="true" aria-label="Exhibit">
+    <button id="panel-close" class="close" aria-label="Close">Close <kbd>Esc</kbd></button>
+    <div id="panel-body" class="scroll"></div>
+  </aside>
+
+  <section id="archive" class="overlay full" role="dialog" aria-modal="true" aria-label="Archive">
+    <button id="archive-close" class="close" aria-label="Close">Close <kbd>Esc</kbd></button>
+    <div class="scroll">
+      <p class="kicker">12 · Exit / Archive</p>
+      <h2>The archive</h2>
+      <p class="lede">Every factual statement in the exhibition, with its source, organization, URL, the MCP server and tool that produced it, whether it is current or historical, the access date, and a confidence note.</p>
+      <div class="archive-grid">
+        <div>
+          <input id="archive-search" type="search" placeholder="Search claims, sources, tools…" aria-label="Search claims" />
+          <div id="archive-filters"></div>
+          <div id="archive-claims"></div>
+        </div>
+        <div>
+          <div id="archive-method"></div>
+          <div id="archive-mcp"></div>
+          <div id="archive-gaps"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="map" class="overlay full" role="dialog" aria-modal="true" aria-label="Plan">
+    <button id="map-close" class="close" aria-label="Close">Close <kbd>Esc</kbd></button>
+    <div class="map-wrap">
+      <div id="map-svg"></div>
+      <div>
+        <p class="kicker">Plan</p>
+        <h2>Twelve rooms</h2>
+        <p class="lede">Click a room to go there. Rooms 04 and 05 sit on an upper level reached by ramps.</p>
+        <ol id="map-list"></ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="textmode" class="overlay full" role="dialog" aria-modal="true" aria-label="Text version">
+    <button id="text-close" class="close" aria-label="Close">Close <kbd>Esc</kbd></button>
+    <div class="scroll">
+      <p class="kicker">Text version</p>
+      <h2>Meridian Hill Park / Malcolm X Park</h2>
+      <div id="text-body"></div>
+    </div>
+  </section>
+
+  <noscript><p style="padding:2rem">This exhibition needs JavaScript. The research is in research/provenance.json.</p></noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

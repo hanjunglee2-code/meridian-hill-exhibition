@@ -1,0 +1,72 @@
+{
+  "about": "Verbatim-trimmed snapshot of what the National Parks MCP server returned during research on 2026-09-29. The NPS API key was used only inside the local MCP server configuration and appears nowhere in this project. The public site reads only this static snapshot and never calls the NPS API.",
+  "accessed": "2026-09-29",
+  "mcpServer": "nationalparks",
+  "calls": [
+    {
+      "tool": "findParks",
+      "args": { "q": "Meridian Hill", "limit": 10 },
+      "result": "57 loosely matched parks returned (fuzzy text search). None of the returned parks is Meridian Hill Park; results began with Abraham Lincoln Birthplace, Adams, Agate Fossil Beds.",
+      "interpretation": "Meridian Hill Park is not a standalone unit in the NPS parks API."
+    },
+    {
+      "tool": "findParks",
+      "args": { "stateCode": "DC", "limit": 50 },
+      "result": "36 NPS parks listed for DC. The string 'Meridian' appears zero times in the full response.",
+      "dcUnitsSample": ["African American Civil War Memorial", "Anacostia Park", "Belmont-Paul Women's Equality National Monument", "Capitol Hill Parks", "Captain John Smith Chesapeake National Historic Trail", "Carter G. Woodson Home National Historic Site", "Chesapeake & Ohio Canal National Historical Park", "Chesapeake Bay", "Civil War Defenses of Washington", "Constitution Gardens", "Dwight D. Eisenhower Memorial", "Ford's Theatre National Historic Site", "Fort Dupont Park", "Franklin Delano Roosevelt Memorial", "Frederick Douglass National Historic Site", "George Washington Memorial Parkway", "Kenilworth Park & Aquatic Gardens", "Korean War Veterans Memorial", "LBJ Memorial Grove on the Potomac", "Lincoln Memorial", "Martin Luther King, Jr. Memorial", "Mary McLeod Bethune Council House National Historic Site", "Rock Creek Park", "..."]
+    },
+    {
+      "tool": "findParks",
+      "args": { "q": "Rock Creek", "stateCode": "DC" },
+      "result": "2 parks: Civil War Defenses of Washington (cwdw) and Rock Creek Park (rocr)."
+    },
+    {
+      "tool": "getParkDetails",
+      "args": { "parkCode": "rocr" },
+      "result": {
+        "name": "Rock Creek Park",
+        "designation": "Park",
+        "url": "https://www.nps.gov/rocr/index.htm",
+        "description": "Rock Creek Park is truly a gem in our nation's capital. This 1,754 acre city park was officially authorized in 1890, making it the third national park to be designated by the federal government.",
+        "directionsInfo_excerpt": "Rock Creek Park also administers 99 separate neighborhood small sites.",
+        "operatingHours": "Unless otherwise designated, all park land is open sunrise to sunset.",
+        "topics_excerpt": ["Engineering", "Monuments and Memorials", "Music", "Social Movements", "Civil War", "Plantations"]
+      }
+    },
+    {
+      "tool": "getAlerts",
+      "args": { "parkCode": "rocr", "limit": 20 },
+      "result": [
+        { "title": "Waterside Drive NW Road Closure Temporarily Delayed", "lastUpdated": "9/18/2026", "excerpt": "crews discovered a large early-1900s utility line during preliminary excavation" },
+        { "title": "Nature Center and Planetarium Closure", "lastUpdated": "4/8/2026" },
+        { "title": "Part of Fort Totten Park remains closed for public safety", "lastUpdated": "11/8/2024" }
+      ],
+      "interpretation": "No current Rock Creek Park alert names Meridian Hill Park."
+    },
+    {
+      "tool": "getAlerts",
+      "args": { "q": "Meridian Hill", "limit": 10 },
+      "result": "8 alerts, all unrelated parks (Fire Island, Saguaro, Adams, Saint-Gaudens, Friendship Hill, Sagamore Hill, Wind Cave, Andersonville). The search is fuzzy and matched the word 'Hill'.",
+      "interpretation": "Discarded as irrelevant. Recorded here so the null result is visible."
+    },
+    {
+      "tool": "getEvents",
+      "args": { "parkCode": "rocr", "q": "Meridian" },
+      "result": {
+        "title": "Mobilizing Memories at Meridian Hill",
+        "date": "2026-10-17",
+        "category": "Regular Event",
+        "tags": ["meridian hill park", "malcolm x park", "cascading fountain", "history walk", "Freedom 250"],
+        "description_excerpt": "Meridian Hill Park, colloquially referred to as Malcolm X Park, is known for its beauty, art, recreation, First Amendment space, and illustrious history. Join a ranger for a formal walking tour of the upper and lower terraces ... exploring the theme of \"who we choose to memorialize and why.\"",
+        "location": "16th St Between Euclid and W Streets NW, Washington, D.C. 20009",
+        "coordinates": { "latitude": "38.922366", "longitude": "-77.035418" },
+        "administeredVia": "Listed under Rock Creek Park (rocr); description directs visitors to the Rock Creek Park website and Nature Center phone line."
+      }
+    },
+    {
+      "tool": "getEvents",
+      "args": { "parkCode": "rocr", "q": "Malcolm X" },
+      "result": "Same single event returned: Mobilizing Memories at Meridian Hill (2026-10-17)."
+    }
+  ]
+}

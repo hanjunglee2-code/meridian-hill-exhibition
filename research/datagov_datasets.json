@@ -1,0 +1,321 @@
+[
+ {
+  "slug": "rock-creek-park-tract-and-boundary-data",
+  "title": "Rock Creek Park Tract and Boundary Data",
+  "publisher": "National Park Service",
+  "description": "These ESRI shape files are of National Park Service tract and boundary data that was created by the Land Resources Division. Tracts are numbered and created by the regional cartographic staff at the Land Resources Program Centers and are associated to the Land Status Maps. This data should be used to display properties that NPS owns and properties that NPS may have some type of interest such as scenic easements or right of ways.",
+  "landingPage": "https://irma.nps.gov/DataStore/Reference/Profile/2300924",
+  "catalogUrl": "https://catalog.data.gov/dataset/rock-creek-park-tract-and-boundary-data",
+  "issued": "2019-05-30T00:00:00Z",
+  "modified": "2019-05-30T00:00:00Z",
+  "spatial": "-77.10671,38.87327,-76.96672,38.99567",
+  "keywords": [
+   "Boundaries",
+   "Boundary",
+   "LRDCAB",
+   "National Capital Region",
+   "National Park Service",
+   "Ownership",
+   "Parcels",
+   "Planning Cadastre",
+   "ROCR",
+   "Rock Creek Park",
+   "Tracts",
+   "United States",
+   "Washington DC"
+  ],
+  "formats": [
+   "zip"
+  ]
+ },
+ {
+  "slug": "rock-creek-park-park-small-scale-base-gis-data",
+  "title": "Rock Creek Park Park Small-Scale Base GIS Data",
+  "publisher": "National Park Service",
+  "description": "This data set contains small-scale base GIS data layers\n    compiled by the National Park Service Servicewide Inventory and\n    Monitoring Program and Water Resources Division for use in a\n    Baseline Water Quality Data Inventory and Analysis Report that was\n    prepared for the park.  The report presents the results of surface\n    water quality data retrievals for the park from six of the United\n    States Environmental Protection Agency's (EPA) national\n    databases: (1) Storage and Retrieval (STORET) water quality database\n    management system; (2) River Reach File (RF3) Hydrography; (3)\n    Industrial Facilities Discharges; (4) Drinking Water Supplies; (5)\n    Water Gages; and (6) Water Impoundments.  The small-scale GIS data\n    layers were used to prepare the maps included in the report that\n    depict the locations of water quality monitoring stations,\n    industrial discharges",
+  "landingPage": "https://irma.nps.gov/DataStore/Reference/Profile/1016964",
+  "catalogUrl": "https://catalog.data.gov/dataset/rock-creek-park-park-small-scale-base-gis-data",
+  "issued": "2001-01-01T00:00:00Z",
+  "modified": "2001-01-01T00:00:00Z",
+  "spatial": "-77.101,38.894,-76.957,38.996",
+  "keywords": [
+   "GIS",
+   "Hydrography",
+   "Hydrology",
+   "Rock Creek Park Park",
+   "Washington D.C.",
+   "Water",
+   "Water Quality"
+  ],
+  "formats": [
+   "xml",
+   "zip"
+  ]
+ },
+ {
+  "slug": "geospatial-data-for-the-vegetation-mapping-inventory-project-of-rock-creek-park",
+  "title": "Geospatial data for the Vegetation Mapping Inventory Project of Rock Creek Park",
+  "publisher": "National Park Service",
+  "description": "The files linked to this reference are the geospatial data created as part of the completion of the baseline vegetation inventory project for the NPS park unit.  Current format is ArcGIS file geodatabase but older formats may exist as shapefiles.\n\nOctober 29, 1996: Aerial photography for Rock Creek Park is flown\nFebruary 25, 1997: Initial meeting at Rock Creek Park headquarters - acquisition of aerial photography and ancillary data including existing vegetation maps\nMarch - April 1997: First cut delineations onto aerial photography of the photo signatures (see Figure 3 - Rock Creek Park Photo Index).\nMay 12 - 16, 1997: Photointerpretation field reconnaissance trip, TNC training of park biologists in field sampling methodology\nMay - June 1997: Develop initial list of photo signature types, Revise initial delineations based on field reconnaissance findings, Label existing polygons with pho",
+  "landingPage": "https://irma.nps.gov/DataStore/Reference/Profile/2233362",
+  "catalogUrl": "https://catalog.data.gov/dataset/geospatial-data-for-the-vegetation-mapping-inventory-project-of-rock-creek-park",
+  "issued": "1998-10-01T00:00:00Z",
+  "modified": "1998-10-01T00:00:00Z",
+  "spatial": "-80,38.25,-76.2,40",
+  "keywords": [
+   "Accuracy Assessment",
+   "Classification",
+   "Geodatabase",
+   "Habitat Types",
+   "Imagery",
+   "NVC",
+   "NVCS",
+   "National Vegetation Classification",
+   "Plots",
+   "Releve",
+   "Relev\u00e9",
+   "Remote Sensing",
+   "USNVCS",
+   "Vegetation",
+   "Vegetation Inventory",
+   "Vegetation Map",
+   "Vegetation Mapping",
+   "botanical survey"
+  ],
+  "formats": [
+   "zip"
+  ]
+ },
+ {
+  "slug": "national-register-of-historic-places",
+  "title": "National Register of Historic Places",
+  "publisher": "National Park Service",
+  "description": "The National Register geospatial dataset is intended to be a comprehensive inventory of all cultural resources that are listed on the National Register of Historic Places. However, this dataset excludes all features deemed 'restricted' or 'sensitive', such as sensitive archaeological sites.  This dataset provides feature geometry representations (point or polygon) and is intended to be supplemented with descriptive attributes maintained by other external database systems such as the National Register Information System which is included in this geodatabase.",
+  "landingPage": "https://irma.nps.gov/DataStore/Reference/Profile/2319397",
+  "catalogUrl": "https://catalog.data.gov/dataset/national-register-of-historic-places",
+  "issued": "2026-09-18T00:00:00Z",
+  "modified": "2026-09-18T00:00:00Z",
+  "spatial": null,
+  "keywords": [
+   "CRSS",
+   "Cultural Landscapes",
+   "Cultural Resource Management",
+   "Cultural Resources Theme",
+   "Ecological Framework: Human Use | Cultural Landscapes | Cultural Landscapes",
+   "Historic Buildings",
+   "Historic Objects",
+   "Historic Preservation",
+   "Historic Sites",
+   "Historic Structures",
+   "Historic resource types",
+   "Listed historic properties",
+   "NGDA",
+   "NGDA Portfolio Themes",
+   "NGDAID36",
+   "NHL",
+   "NPS",
+   "NR",
+   "NRIS",
+   "National Geospatial Data Asset",
+   "National Historic Landmarks",
+   "National Park Service",
+   "National Register of Historic Places",
+   "historic districts",
+   "historic properties"
+  ],
+  "formats": [
+   "API",
+   "jpg",
+   "pdf",
+   "xml",
+   "zip"
+  ]
+ },
+ {
+  "slug": "enviroatlas-washington-dc-proximity-to-parks",
+  "title": "EnviroAtlas - Washington, DC - Proximity to Parks",
+  "publisher": "U.S. EPA Office of Research and Development (ORD) - National Exposure Research Laboratory (NERL)",
+  "description": "This EnviroAtlas dataset shows the approximate walking distance from a park entrance at any given location within the EnviroAtlas community boundary. The zones are estimated in 1/4 km intervals up to 1km then in 1km intervals up to 5km. Park entrances were included in this analysis if they were within 5km of the community boundary. This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas. EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas ",
+  "landingPage": null,
+  "catalogUrl": "https://catalog.data.gov/dataset/enviroatlas-washington-dc-proximity-to-parks",
+  "issued": "2019-04-29T00:00:00.000+00:00",
+  "modified": "2019-04-29T00:00:00.000+00:00",
+  "spatial": "-76.68178,38.3645,-77.86109,39.42125",
+  "keywords": [
+   "Ecosystem",
+   "Environment",
+   "Communities",
+   "Ecosystem Services",
+   "EnviroAtlas",
+   "Environment",
+   "Environmental Atlas",
+   "Human Well-being",
+   "Recreation",
+   "Washington, DC",
+   "District of Columbia"
+  ],
+  "formats": [
+   "ZIP",
+   "text/html"
+  ]
+ },
+ {
+  "slug": "census-tracts-in-1950",
+  "title": "Census Tracts in 1950",
+  "publisher": "DC GIS",
+  "description": "<div style='text-align:Left;'><div><div><p><span>Census Year 1950 Census Tracts. The dataset contains polygons representing CY 1950 census tracts, created as part of the D.C. Geographic Information System (DC GIS) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies. Census tracts were identified from maps provided by the U.S. Census Bureau and the D.C. Office of Planning. The tract polygons were created by selecting street arcs from the WGIS planimetric street centerlines. Where necessary, polygons were also heads-up digitized from 1995/1999 orthophotographs.</span></p></div></div></div>",
+  "landingPage": "https://opendata.dc.gov/datasets/DCGIS::census-tracts-in-1950",
+  "catalogUrl": "https://catalog.data.gov/dataset/census-tracts-in-1950",
+  "issued": "2015-02-27T20:47:55.000Z",
+  "modified": "2018-01-05T00:00:00.000Z",
+  "spatial": "-77.1195,38.8018,-76.9093,38.9951",
+  "keywords": [
+   "Census Tracts",
+   "Demographic",
+   "District of Columbia",
+   "Government jurisdictions",
+   "Open Data",
+   "Tracts",
+   "Washington DC",
+   "census"
+  ],
+  "formats": [
+   "ArcGIS GeoServices REST API",
+   "CSV",
+   "GeoJSON",
+   "KML",
+   "OGC WMS",
+   "Web Page",
+   "ZIP"
+  ]
+ },
+ {
+  "slug": "metro-stations-in-dc",
+  "title": "Metro Stations in DC",
+  "publisher": "Washington Metropolitan Area Transit Authority",
+  "description": "<div style='text-align:Left;'><div><div><p><span>This dataset contains points representing Metro Stations within the District of Columbia. Station centroids were identified from visual observation of orthophotography and extracted from the planimetric data.</span></p></div></div></div>",
+  "landingPage": "https://opendata.dc.gov/datasets/DCGIS::metro-stations-in-dc",
+  "catalogUrl": "https://catalog.data.gov/dataset/metro-stations-in-dc",
+  "issued": "2015-02-27T21:15:01.000Z",
+  "modified": "2024-03-20T00:00:00.000Z",
+  "spatial": "-77.0850,38.8456,-76.9352,38.9761",
+  "keywords": [
+   "dc",
+   "district of columbia",
+   "metro station",
+   "rail",
+   "subway",
+   "transit",
+   "transportation",
+   "washington dc",
+   "wmata"
+  ],
+  "formats": [
+   "ArcGIS GeoServices REST API",
+   "CSV",
+   "GeoJSON",
+   "KML",
+   "OGC WMS",
+   "Web Page",
+   "ZIP"
+  ]
+ },
+ {
+  "slug": "urban-tree-canopy-by-dc-boundary-in-2020",
+  "title": "Urban Tree Canopy by DC Boundary in 2020",
+  "publisher": "District Department of Transportation",
+  "description": "<div style='text-align:Left;'><div><div><p><span>These data represent DC Boundary in Washington, DC. Urban tree canopy (UTC) and possible planting area (PPA) metrics have been calculated for DC Boundary within the study area. UTC results provided in vector format with attribute fields (area/percent metrics/percent change metrics) for each land cover class and UTC type (UTC, PPA, Unsuitable UTC, UTC Change).</span></p></div></div></div>",
+  "landingPage": "https://opendata.dc.gov/datasets/DCGIS::urban-tree-canopy-by-dc-boundary-in-2020",
+  "catalogUrl": "https://catalog.data.gov/dataset/urban-tree-canopy-by-dc-boundary-in-2020",
+  "issued": "2022-04-04T17:42:52.000Z",
+  "modified": "2022-04-05T00:00:00.000Z",
+  "spatial": "-77.1196,38.7916,-76.9090,38.9959",
+  "keywords": [
+   "DDOT",
+   "NAIP",
+   "PPA",
+   "Possible Planting Area",
+   "UFD",
+   "UTC",
+   "dc",
+   "district of columbia",
+   "environment",
+   "land cover",
+   "tree canopy",
+   "tree cover",
+   "urban forestry",
+   "washington dc"
+  ],
+  "formats": [
+   "ArcGIS GeoServices REST API",
+   "CSV",
+   "GeoJSON",
+   "KML",
+   "OGC WMS",
+   "Web Page",
+   "ZIP"
+  ]
+ },
+ {
+  "slug": "historic-districts-7b313",
+  "title": "Historic Districts",
+  "publisher": "DC Office of Planning",
+  "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>This dataset contains Historic Districts officially designated by the District of Columbia. Additional data sets are also available providing information on (1) historic landmarks in the District of Columbia.</SPAN></P></DIV></DIV></DIV>",
+  "landingPage": "https://opendata.dc.gov/datasets/DCGIS::historic-districts",
+  "catalogUrl": "https://catalog.data.gov/dataset/historic-districts-7b313",
+  "issued": "2018-05-15T14:29:34.000Z",
+  "modified": "2026-09-20T23:45:25.000Z",
+  "spatial": "-77.1199,38.8247,-76.9382,38.9912",
+  "keywords": [
+   "District of Columbia",
+   "Historic Districts",
+   "Historic Preservation",
+   "National Historic Parks",
+   "National Historic Sites",
+   "National Register of Historic Places",
+   "Washington DC",
+   "historic buildings",
+   "landmark",
+   "planning",
+   "property"
+  ],
+  "formats": [
+   "ArcGIS GeoServices REST API",
+   "CSV",
+   "GeoJSON",
+   "KML",
+   "OGC WMS",
+   "Web Page",
+   "ZIP"
+  ]
+ },
+ {
+  "slug": "parks-and-recreation-areas",
+  "title": "Parks and Recreation Areas",
+  "publisher": "Department of Parks and Recreation",
+  "description": "<div style='text-align:Left;'><div><div><p><span>Department of Parks and Recreation (DPR) properties identified as polygons. The dataset contains general locations and amenity information about the properties under the jurisdiction of the DC Department of Parks and Recreation. It has been created as part of the DC Geographic Information System (DC GIS) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies. This data is provided by the Department of Parks and Recreation.</span></p></div></div></div>",
+  "landingPage": "https://opendata.dc.gov/datasets/DCGIS::parks-and-recreation-areas",
+  "catalogUrl": "https://catalog.data.gov/dataset/parks-and-recreation-areas",
+  "issued": "2015-02-27T21:13:54.000Z",
+  "modified": "2025-09-12T00:00:00.000Z",
+  "spatial": "-77.1112,38.8177,-76.9109,38.9881",
+  "keywords": [
+   "DC GIS",
+   "District of Columbia",
+   "Recreation",
+   "Washington DC",
+   "dpw",
+   "fields",
+   "parks"
+  ],
+  "formats": [
+   "ArcGIS GeoServices REST API",
+   "CSV",
+   "GeoJSON",
+   "KML",
+   "OGC WMS",
+   "Web Page",
+   "ZIP"
+  ]
+ }
+]

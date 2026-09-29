@@ -1,0 +1,8 @@
+# Secrets and local MCP configuration must never be committed
+.env
+.env.*
+.mcp.json
+.claude/
+*.key
+node_modules/
+.DS_Store
